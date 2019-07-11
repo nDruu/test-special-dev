@@ -1,0 +1,175 @@
+/* Itt határozzuk meg a betűtípust háttért, hogy a "boxokon belül" milyen legyen */
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #DBD1C8;
+}
+
+/* Álatalánosságban */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media (min-width:640px) {
+  .containerbox{
+    display: flex;
+  }
+
+  .containerbox div{
+
+    padding: 10px;
+  }
+}
+
+.button_1{
+  height: 37px;
+  background: #E18868;
+  border: 0;
+  padding: 0 20px 0 20px;
+  color: #ffffff;
+}
+
+.button_1:hover{
+  background: #830017;
+  transition-duration: 0.4s;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* fejléc */
+header{
+  background: #343643;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;  /* Alatta */
+  border-bottom: 70px;
+  border-bottom: #830017 3px solid;
+}
+
+/* menüpontok színe, stílusa stb */
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/* Menüpontok helyzete */
+header li{
+  float: left; /*sorrend*/
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+/* menüpontok tologatása */
+header #branding{
+  float: left;
+}
+
+/* cím bekezdés */
+header #branding h1{
+  margin: 0;
+}
+
+/* jobbra igazított menüpontok */
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+/* első menü kiemelt */
+header .highlight, header .current a{
+  color: #E18868;
+  font-weight: bold;
+}
+
+/* Menüpont animáció */
+header a:hover{
+  color: #AC8586;
+  text-decoration: underline;
+  transition-duration: 0.4s;
+}
+
+/* 10év mögé */
+#showcase{
+  min-height: 400px;
+  background: url('../img/showcase.jpg') no-repeat 0 -1000px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* 10éve a szakmában cím */
+#showcase h1{
+  margin-top:100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+/* 10 éve a szakmábvan habiszöveg */
+#showcase p{
+  font-weight: bold;
+}
+
+/* hírlevél általánosságban */
+#newsletter{
+  padding: 15px;
+  color: #ffffff;
+  background: #343643;
+}
+
+/* Feliratkozás cím */
+#newsletter h2{
+  float: left;
+}
+
+/* feliratkozás beviteli mező és gomb jobbra igazítása */
+#newsletter form{
+  float: right;
+  margin-top: 17px;
+}
+
+/* E-mail beviteli mező formázása */
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* IDEA: még kell a mobil verzó(elcsúsztatás) */
+#boxes{
+  padding: 0 10% 0 10%;
+  text-align: center;
+}
+
+#box1{
+  flex:auto;
+}
+
+#box2{
+  flex:auto;
+}
+
+#box3{
+  flex:auto;
+}
+
+/* habiszöveg */
+#habiszoveg{
+  color: #ffffff;
+  background: #343643;
+  text-align: center;
+}
+
+footer{
+  padding: 20px;
+  margin-top:  0px;
+  color: #ffffff;
+  background-color: #830017;
+  text-align: center;
+}

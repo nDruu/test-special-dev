@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu" dir="ltr"> <!-- átállítottam magyarra az ékezetek miatt-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"> <!-- ez a meta adja meg az értéket ami a böngésző szélességével egyezik meg-->
+    <meta name="description" content="Egy nagyon profi webdizájn"> <!-- ez lesz a leírásban ??? -->
+    <meta name="keywords" content="Special Construct Kft, betonlövés, építkezés"> <!-- itt vannak a keresőszavak -->
+    <meta name="author" content="Balogh Olivér"> <!-- itt adható meg a készítő neve -->
+    <title>Special Construct Kft. | Kezdőlap</title> <!-- ez lesz a böngésző fülében a cím -->
+    <link rel="stylesheet" href="./css/style.css"> <!-- itt hivatkozunk a CSS-re -->
+  </head>
+  <body>
+    <header>
+      <div class="container"> <!-- osztály arra jó hogy azt többször is felhasználhatjuk-->
+        <div id="branding"> <!-- id meg csak egyszer előfordulóra-->
+          <h1><span class="highlight">Special</span> Construct Építőipari Kft.</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Főoldal</a></li> <!-- ezek lesznek a menűpontok(current ahol vagyunk narancs színű) -->
+            <li><a href="rolunk.html">Rólunk</a></li>
+            <li><a href="referencia.html">Referenciák</a></li>
+            <li><a href="technologia.html">Technológia</a></li>
+            <li><a href="galeria.html">Galéria</a></li>
+            <li><a href="velemeny.html">Vélemények</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+          <h1>Lassan több, mint 10 éve a szakmában</h1>
+          <p>Fő profilunk a lőtt betonnal való szerkezet-megerősítés. Módszerünk lényege, hogy a betonozást egy tömlőn át sűrített levegő segtségével végezzük nedves vagy száraz anyagkeverék szórásával. Ezzel gyorsaságot, tökéletes tapadást és tartósságot biztosítunk.</p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h2>Feliratkozás a hírlevélre </h2>
+        <form action="hirlev.php"> <!-- ez lesz majd PHP -->
+          <input type="email" placeholder="E-mail">
+          <button type="submit" class="button_1">Feliratkozás</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="containerbox">
+        <div class="box1">
+          <img src="./img/2016.jpg">
+          <h3>2016-os</h3>
+          <p>Sankó-Ép Kft. Apolló Tyres Projekt HCH épület vasbeton szerkezetépítési munkái</p> <p> Shopping Mall Invest Kft. Szeged Plaza ALDI üzlthez kapcsolódó bontási-építési munkák</p>
+          <form action="2016.html">
+            <input type="submit" class="button_1" value="Még több">
+          </form>
+        </div>
+        <div class="box2">
+          <img src="./img/2015.1.jpg" alt="">
+          <h3>2015-ös</h3>
+          <p>Dunakorr 2002 Kft Felső Bácskai ívóvízmínőség javító projekt Dávod és Gara lőtt betonos felújítási munkái</p> <p>Hazai Építőgép Kft. M85 Győr-Enese közötti szakasz aknák bontási és helyreállítási munkái</p>
+          <form action="2015.html">
+            <input type="submit" class="button_1" value="Még több">
+          </form>
+        </div>
+        <div class="box3">
+          <img src="./img/2014.jpg" alt="">
+          <h3>2014-es</h3>
+          <p>OK Bau Kft. Mobis logisztikai központ bazaltbeton burkolat homokszórása és felületszilárdítása impregnálással</p> <p>Ro-Ly Bau Kft. Csanádpalota 44129 j út 1+249,9 kmsz. RMA szigetelési munkák</p>
+          <form action="2014.html">
+            <input type="submit" class="button_1" value="Még több">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="habiszoveg">
+        <div class="container">
+          <h4>A 2010-ben alapított, dinamikusan fejlődő Special Construct Építőipari Kft. a magyar, német és román építőipari piacok aktív szereplője. Vállalatunk minőséget, hozzáértést és kiszámíthatóságot biztosít megrendelői számára.</h4>
+        </div>
+    </section>
+
+    <footer>
+      <p>Special Construct Kft., Copyright &copy; 2019 </p>
+    </footer>
+  </body>
+</html>
