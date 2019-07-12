@@ -13,15 +13,25 @@ body{
   overflow: hidden;
 }
 
-@media (min-width:640px) {
-  .containerbox{
-    display: flex;
-  }
+/*@media (min-width:640px) {*/
+/*  .containerbox{*/
+/*    display: flex;*/
+/*  }*/
 
-  .containerbox div{
+/*  .containerbox div{*/
 
-    padding: 10px;
+/*    padding: 10px;*/
+/*  }*/
+/*}*/
+
+@media (min-width: 576px){
+  .jumbotron {
+    padding: 0;
   }
+}
+
+.jumbotron{
+  padding: 0;
 }
 
 .button_1{
@@ -88,7 +98,9 @@ header .highlight, header .current a{
   color: #E18868;
   font-weight: bold;
 }
-
+header .jumbotron{
+  background: #343643;
+}
 /* Menüpont animáció */
 header a:hover{
   color: #AC8586;
