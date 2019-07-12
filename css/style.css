@@ -13,16 +13,16 @@ body{
   overflow: hidden;
 }
 
-@media (min-width:640px) {
-  .containerbox{
-    display: flex;
-  }
+/*@media (min-width:640px) {*/
+/*  .containerbox{*/
+/*    display: flex;*/
+/*  }*/
 
-  .containerbox div{
+/*  .containerbox div{*/
 
-    padding: 10px;
-  }
-}
+/*    padding: 10px;*/
+/*  }*/
+/*}*/
 
 .button_1{
   height: 37px;
